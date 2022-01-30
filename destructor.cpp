@@ -29,6 +29,6 @@ int main()
         num n2 , n3 ;
         cout<<"Exiting this block"<<endl;
     }
-    cout<<"Back to main "<<endl;
+    cout<<"Back to main function"<<endl;
     return 0;
 }
