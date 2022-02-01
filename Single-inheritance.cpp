@@ -45,15 +45,15 @@ void Derived ::process()
 };
 void Derived ::display()
 {
-    cout << "The value of data 1 is " << getData1()<<endl;
+    cout << "The value of data 1 is " << getData1() << endl;
     cout << "Tha value of data 2 is " << data2 << endl;
     cout << "The value of data 3 is " << data3 << endl;
 };
 int main()
 {
-Derived der;
-der.setData();
-der.process();
-der.display();
+    Derived der;
+    der.setData();
+    der.process();
+    der.display();
     return 0;
 };

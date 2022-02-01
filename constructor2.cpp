@@ -13,3 +13,15 @@ class BankDeposit {
     BankDeposit(int p, int y, float r );
     BankDeposit(int p, int y, int r );
 };
+BankDeposit :: BankDeposit(int p , int y , float r){
+      principal = p ;
+      years =y ;
+      interestRate = r;
+
+      returnValue =0 ;
+      for (int i = 0; i < y; i ++)
+      {
+          
+      }
+      
+};

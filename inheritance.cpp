@@ -34,7 +34,7 @@ int main()
 
     cout << "The id of Satpreet is " << satpreet.id << endl;
     cout << "The id of Amrit  is " << amrit.id << endl;
- Programmer sharan(786);
- cout<<"The Employee id of Sharan is "<<sharan.id<<endl;
+    Programmer sharan(786);
+    cout << "The Employee id of Sharan is " << sharan.id << endl;
     return 0;
 };

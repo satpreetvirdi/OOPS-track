@@ -25,6 +25,7 @@ public:
 };
 
 // Derived Class from Base 1 and Base 2 
+
 class Derived : public Base1, public Base2
 {
 public:

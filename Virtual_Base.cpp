@@ -10,7 +10,7 @@ protected:
 public:
     void set_number(int a)
     {
-        roll_no = a;
+        roll_no = a; 
     }
     void print_number()
     {

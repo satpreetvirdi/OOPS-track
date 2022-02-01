@@ -15,9 +15,10 @@ public:
     {
         a = num;
     }
-// Copy Constructor
-    Number (Number &obj){
-        a = obj.a ;
+    // Copy Constructor
+    Number(Number &obj)
+    {
+        a = obj.a;
     }
 
     void display()
